@@ -7,6 +7,6 @@ export class Vip extends Ingresso {
     }
 
     public imprimeValor() {
-        console.log(`Valor do Ingresso VIP: R$ ${this._valor + 20}`);
+        console.log(`Ingresso VIP: R$ ${this._valor + 20}`);
     }
 }
